@@ -1,0 +1,50 @@
+body {
+    background-color: #2a2a2a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: #00bcd4;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00bcd4;
+}
+
+input[type="text"],
+input[type="file"],
+textarea,
+input[type="datetime-local"],
+input[type="submit"],
+input[type="number"],
+input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #009688;
+}
+
+#percentage_warning {
+    color: red;
+}
