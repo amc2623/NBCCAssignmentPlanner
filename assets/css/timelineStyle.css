@@ -1,0 +1,100 @@
+body {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    font-size:50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+#container {
+    height: 450px;
+    width: 70%;
+    margin: 10% auto 0;
+    padding: 3%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.timeline {
+    width: 90%;
+    display: flex; /* Add this line to make the timeline a flex container */
+    justify-content: space-between; /* Add this line to evenly space steps */
+    align-items: center; /* Center vertically */
+    height: 100px;
+    margin: 0 auto;
+    background-color: #ccc;
+    border: 1px solid #000;
+    white-space: nowrap; /* Prevent wrapping of steps */
+}
+
+.step {
+    height: 100%;
+    background-color: #007bff;
+    border: 2px solid #000;
+    text-align: center;
+    box-sizing: border-box; /* Include border and padding in the width */
+}
+
+.step-percent {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px; 
+    white-space: nowrap;
+}
+
+/* section steps coloring */
+.step.step-1 {
+    background-color: #FFF8DC; /* Beige */
+}
+.step.step-2 {
+    background-color: #90EE90; /* Green */
+}
+.step.step-3 {
+    background-color: #FFB6C1; /* Pink */
+}
+.step.step-4 {
+    background-color: #ccc; /* Gray */
+}
+.step.step-5 {
+    background-color: rgb(168, 242, 218); /* Aqua */
+}
+.step.step-6 {
+    background-color: #fae079; /* Beige */
+}
+.step.step-7 {
+    background-color: #97c2f4; /* Green */
+}
+.step.step-8 {
+    background-color: #f76f83; /* Pink */
+}
+.step.step-9 {
+    background-color: #cb83f1; /* Gray */
+}
+.step.step-10 {
+    background-color: rgb(174, 182, 244); /* Aqua */
+}
+
+.vertical-line {
+    border-left: 2px solid #000;
+    height: 100px;
+    transform: translateX(50%);
+}
+
+.step-name {
+    position: relative;
+    left: 0%;
+    font-weight: bold;
+    font-size: 20px;
+    top: 68%;
+}

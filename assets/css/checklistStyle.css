@@ -1,0 +1,95 @@
+/* checklistStyle.css */
+body {
+    font-family: 'Cambria', serif;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    width: 600px;
+    margin: 75px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #555;
+}
+
+.step {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #ededed;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.step h3 {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    transition: border-color 0.3s ease-in-out;
+    background-color: #f5f5f5;
+    color: #555;
+}
+
+input[type="submit"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    background-color: #4d4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #666666;
+}
+
+button {
+    font-family: 'Cambria';
+    width: 100%;
+    padding: 12px;
+    background-color: #4d4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #666666;
+}
+
+
+footer {
+    position: fixed;
+    background-color: #0E293A;
+    color: white;
+    width: 100%;
+    height: 4%;
+    text-indent: 2%;
+    padding-top: 1%;
+    margin-top: 10%;
+    bottom: 0;
+}

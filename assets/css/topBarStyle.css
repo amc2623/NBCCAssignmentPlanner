@@ -1,0 +1,36 @@
+.header-img {
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 290px;
+    padding: 0;
+    margin:0px;
+    color: #ffffff;
+    z-index: 1000; 
+}
+
+.navbar {
+    position: fixed;
+    background-color: #829600;
+    top: 50;
+    width: 100%;
+    position: absolute;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20%;
+}
+
+.navbar a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 10px 0px 12px;
+    font-size: 17px;
+} 
+
+@media print {
+    .navbar, .header-img {
+        display: none;
+    }
+}

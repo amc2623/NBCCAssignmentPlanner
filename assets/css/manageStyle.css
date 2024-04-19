@@ -1,0 +1,166 @@
+/* manageStyle.css */
+
+body {
+    font-family: 'Cambria';
+    background-color: #ffffff;
+    margin: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    color: #4d4d4d;
+    text-align: center;
+
+}
+
+.header a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4d4d4d;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for buttons */
+.header a:hover {
+    background-color: #666666;
+    text-decoration: none;
+}
+
+table {
+    font-family: Cambria;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #e0e0e0;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+th {
+    background-color: #4d4d4d;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #dddddd;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.addCourse {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.addCourseBtn {
+    width: 110px;
+    margin-left: 20px;
+}
+
+/* Wrap the edit and delete buttons in a container */
+.btn-container {
+    display: inline-block;
+    width: 400px;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #4d4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: #666666;
+}
+
+button {
+    font-family: 'Cambria';
+    width: 100%;
+    padding: 12px;
+    background-color: #4d4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #666666;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    /*i made the hr fancy*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    background-color: #0E293A;
+    color: white;
+    width: 100%;
+    height: 4%;
+    text-indent: 2%;
+    padding-top: 1%;
+    margin-top: 10%;
+    bottom: 0;
+}
+
+.mainform {
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #e0e0e0;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    max-height: 500px;
+    /* Set the maximum height of the container */
+    overflow-y: scroll;
+}
